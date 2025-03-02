@@ -21,7 +21,7 @@ function Game() {
 
   const fetchDestination = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/api/destination/random");
+      const response = await axios.get("https://globetrotter-game-m3b9.onrender.com/api/destination/random");
       setDestination(response.data);
     } catch (error) {
       console.error("Error fetching destination:", error);
@@ -55,7 +55,7 @@ function Game() {
   const endGame = async () => {
     try {
         
-      await axios.post("http://localhost:5000/api/user/score", { username:username, score:score });
+      await axios.post("https://globetrotter-game-m3b9.onrender.com/api/user/score", { username:username, score:score });
       setShowModal(true);
     } catch (error) {
       console.error("Error saving score:", error);
