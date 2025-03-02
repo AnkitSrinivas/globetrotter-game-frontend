@@ -1,4 +1,4 @@
-##🌍 Globetrotter - Travel Guessing Game (Frontend)
+## 🌍 Globetrotter - Travel Guessing Game (Frontend)
 
 This is the frontend for **Globetrotter**, a fun travel guessing game where users receive cryptic clues and must identify the destination.
 
